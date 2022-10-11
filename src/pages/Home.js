@@ -1,11 +1,6 @@
 import "bootstrap/dist/css/bootstrap.min.css"
 import "./Home.css"
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-  Link
-} from "react-router-dom";
+import { Link } from "react-router-dom";
 import React, { useState } from "react"
 
 
@@ -45,7 +40,7 @@ export const Home = () => {
                 />
               </div>
               <div className="d-grid gap-2 mt-3">
-                <Link to="/">
+                <Link to="/crud">
                   <button type="submit" className="btn btn-primary">
                     Ingresar
                   </button>
